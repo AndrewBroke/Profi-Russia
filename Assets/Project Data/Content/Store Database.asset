@@ -1,0 +1,203 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9132468614786931505
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1b66fe2e39677145a6c9ee77dc9b674, type: 3}
+  m_Name: YellowWallProduct001
+  m_EditorClassIdentifier: 
+  id: 1
+  productName: Blue Wall
+  unlockedIcon: {fileID: 21300000, guid: c437cead450f252468b99258f3020b62, type: 3}
+  page: 0
+  type: 0
+  behaviourType: 0
+  isDefault: 1
+  wallMaterial: {fileID: 2100000, guid: 3625dcf6884062046a42bc2c65d0dd3d, type: 2}
+  rotateOnCreate: 0
+--- !u!114 &-2222581413141788245
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 918a68cda300b184681360250c3c6324, type: 3}
+  m_Name: CommingSoon1Product004
+  m_EditorClassIdentifier: 
+  id: 4
+  productName: Comming Soon 1
+  unlockedIcon: {fileID: 21300000, guid: d088c4549ad829e46ab72337d1794a0b, type: 3}
+  page: 0
+  type: 0
+  behaviourType: 1
+  isDefault: 0
+--- !u!114 &-2073552686092797702
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 918a68cda300b184681360250c3c6324, type: 3}
+  m_Name: CommingSoon6Product009
+  m_EditorClassIdentifier: 
+  id: 9
+  productName: Comming Soon 6
+  unlockedIcon: {fileID: 21300000, guid: d088c4549ad829e46ab72337d1794a0b, type: 3}
+  page: 0
+  type: 0
+  behaviourType: 1
+  isDefault: 0
+--- !u!114 &-1739039283695149330
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 918a68cda300b184681360250c3c6324, type: 3}
+  m_Name: CommingSoon3Product006
+  m_EditorClassIdentifier: 
+  id: 6
+  productName: Comming Soon 3
+  unlockedIcon: {fileID: 21300000, guid: d088c4549ad829e46ab72337d1794a0b, type: 3}
+  page: 0
+  type: 0
+  behaviourType: 1
+  isDefault: 0
+--- !u!114 &-814912814318354602
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 918a68cda300b184681360250c3c6324, type: 3}
+  m_Name: CommingSoon5Product008
+  m_EditorClassIdentifier: 
+  id: 8
+  productName: Comming Soon 5
+  unlockedIcon: {fileID: 21300000, guid: d088c4549ad829e46ab72337d1794a0b, type: 3}
+  page: 0
+  type: 0
+  behaviourType: 1
+  isDefault: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 518e113bf588e7044b019c57102645fa, type: 3}
+  m_Name: Store Database
+  m_EditorClassIdentifier: 
+  products:
+  - {fileID: -9132468614786931505}
+  - {fileID: 8583180760906557717}
+  - {fileID: 6972760851978294603}
+  - {fileID: -2222581413141788245}
+  - {fileID: 5450841480949878250}
+  - {fileID: -1739039283695149330}
+  - {fileID: 4539757433097870479}
+  - {fileID: -814912814318354602}
+  - {fileID: -2073552686092797702}
+  environmentSkinPrice: 500
+  coinsForAdsAmount: 150
+--- !u!114 &4539757433097870479
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 918a68cda300b184681360250c3c6324, type: 3}
+  m_Name: CommingSoon4Product007
+  m_EditorClassIdentifier: 
+  id: 7
+  productName: Comming Soon 4
+  unlockedIcon: {fileID: 21300000, guid: d088c4549ad829e46ab72337d1794a0b, type: 3}
+  page: 0
+  type: 0
+  behaviourType: 1
+  isDefault: 0
+--- !u!114 &5450841480949878250
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 918a68cda300b184681360250c3c6324, type: 3}
+  m_Name: CommingSoon2Product005
+  m_EditorClassIdentifier: 
+  id: 5
+  productName: Comming Soon 2
+  unlockedIcon: {fileID: 21300000, guid: d088c4549ad829e46ab72337d1794a0b, type: 3}
+  page: 0
+  type: 0
+  behaviourType: 1
+  isDefault: 0
+--- !u!114 &6972760851978294603
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1b66fe2e39677145a6c9ee77dc9b674, type: 3}
+  m_Name: GreenWallProduct003
+  m_EditorClassIdentifier: 
+  id: 3
+  productName: Yellow Wall
+  unlockedIcon: {fileID: 21300000, guid: 1f800414b7ce2554b8499b66a692be81, type: 3}
+  page: 0
+  type: 0
+  behaviourType: 0
+  isDefault: 0
+  wallMaterial: {fileID: 2100000, guid: 6c2d22752c9751745a31be6336c23cd7, type: 2}
+  rotateOnCreate: 0
+--- !u!114 &8583180760906557717
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1b66fe2e39677145a6c9ee77dc9b674, type: 3}
+  m_Name: YellowwallProduct002
+  m_EditorClassIdentifier: 
+  id: 2
+  productName: Green Wall
+  unlockedIcon: {fileID: 21300000, guid: d0ad766ba965d7a45a6148b04de9b6fc, type: 3}
+  page: 0
+  type: 0
+  behaviourType: 0
+  isDefault: 0
+  wallMaterial: {fileID: 2100000, guid: edadd9d593bce2e43b726ee39ceefe41, type: 2}
+  rotateOnCreate: 0
