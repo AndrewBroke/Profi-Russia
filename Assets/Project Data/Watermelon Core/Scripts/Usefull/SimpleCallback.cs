@@ -1,2 +1,0 @@
-﻿
-public delegate void SimpleCallback();
