@@ -109,7 +109,7 @@ Material:
     - _SColor: {r: 0.6509434, g: 0.09497256, b: 0.08904416, a: 1}
     - _Shine_Color: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []
---- !u!114 &5335982368455917111
+--- !u!114 &8891484310610518740
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}

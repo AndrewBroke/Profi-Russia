@@ -166,7 +166,7 @@ namespace Watermelon
                 {
                     Handles.color = (i % 3 == 0) ? controller.anchorCol : controller.controlCol;
                     float handleSize = (i % 3 == 0) ? controller.anchorDiameter : controller.controlDiameter;
-                    var fmh_169_70_638790309345318948 = Quaternion.identity; Vector3 newPos = Handles.FreeMoveHandle(Path[i], handleSize, Vector2.zero, Handles.CylinderHandleCap);
+                    var fmh_169_70_638791140636821350 = Quaternion.identity; Vector3 newPos = Handles.FreeMoveHandle(Path[i], handleSize, Vector2.zero, Handles.CylinderHandleCap);
                     if (Path[i] != newPos)
                     {
                         Undo.RecordObject(controller, "Move point");
