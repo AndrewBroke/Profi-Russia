@@ -6,6 +6,17 @@ TagManager:
   tags:
   - Part
   - Visuals
+  - MoveDetail
+  - Wheel
+  - DetailsList
+  - ButtonsList
+  - Car
+  - Fan
+  - Wings
+  - SecondWheel
+  - Wall
+  - Movable
+  - Rocket
   layers:
   - Default
   - TransparentFX
