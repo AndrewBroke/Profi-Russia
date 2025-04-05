@@ -2,10 +2,21 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class StartButtonController : MonoBehaviour
+public class StartButtonController : SimpleButton
 {
-    public void StartGame(CarMovement carMovement)
+
+    private CarMovement carMovement;
+    public override void OnClick()
     {
+        base.OnClick();
         carMovement.isStarted = true;
+        gameObject.SetActive(false);
+
+    }
+
+    private void Start()
+    {
+        carMovement = GameObject.FindGameObjectWithTag("Player").GetComponent<CarMovement>();
+        AddClickListener();
     }
 }

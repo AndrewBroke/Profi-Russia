@@ -2,13 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class WingsController : MonoBehaviour
+public class WingsController : Modifier
 {
-    [SerializeField] private CarMovement carMovement;
-
     [SerializeField] private float wingsForce = 4;
-
-    private Rigidbody rbCar;
 
     private bool isReady = true;
 
@@ -16,7 +12,7 @@ public class WingsController : MonoBehaviour
 
     private void Start()
     {
-        rbCar = carMovement.GetComponent<Rigidbody>();
+        InitializeRigidbody();
     }
 
     public void ActivateWings()

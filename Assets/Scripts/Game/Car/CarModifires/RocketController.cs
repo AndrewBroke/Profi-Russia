@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 
-public class RocketController : MonoBehaviour
+public class RocketController : Modifier
 {
     private Rigidbody rb;
     [SerializeField] private float speed;

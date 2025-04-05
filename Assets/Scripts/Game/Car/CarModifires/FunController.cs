@@ -2,19 +2,16 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class FunController : MonoBehaviour
+public class FunController : Modifier
 {
-    [SerializeField] private CarMovement carMovement;
 
     [SerializeField] private float fanForce = 7;
-
-    private Rigidbody rbCar;
 
     private bool isUsing;
 
     private void Start()
     {
-        rbCar = carMovement.GetComponent<Rigidbody>();
+        InitializeRigidbody();
     }
 
     private void Update()

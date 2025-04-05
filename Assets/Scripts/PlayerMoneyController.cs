@@ -20,10 +20,6 @@ public class PlayerMoneyController : MonoBehaviour
             PrintCoins();
         }
     }
-    public void BuyCoins()
-    {
-
-    }
     public void PrintCoins()
     {
         if(coinsData.coins >= 1000)

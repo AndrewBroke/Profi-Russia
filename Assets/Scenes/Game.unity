@@ -3648,31 +3648,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1669241916}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1669241918}
-        m_TargetAssemblyTypeName: StartButtonController, Assembly-CSharp
-        m_MethodName: StartGame
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 6683075410841684153}
-          m_ObjectArgumentAssemblyTypeName: CarMovement, Assembly-CSharp
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1669241913}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &1669241916
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3723,6 +3699,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: feadea8f44e9f274ca9b6c33b16730c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  clickSound: {fileID: 0}
 --- !u!1 &1747690939
 GameObject:
   m_ObjectHideFlags: 0
@@ -5171,6 +5148,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   carMovement: {fileID: 6683075410841684153}
+  rbCar: {fileID: 0}
   fanForce: 7
 --- !u!33 &2978091262464977464
 MeshFilter:
@@ -5570,7 +5548,7 @@ GameObject:
   - component: {fileID: 6683075410841684153}
   m_Layer: 10
   m_Name: Milk Rover
-  m_TagString: Car
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5880,6 +5858,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fdb250d22c26dd949a1a44f32e230736, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  carMovement: {fileID: 6683075410841684153}
+  rbCar: {fileID: 0}
   speed: 20
 --- !u!65 &8090288634390743762
 BoxCollider:
@@ -5991,6 +5971,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   carMovement: {fileID: 6683075410841684153}
+  rbCar: {fileID: 0}
   wingsForce: 10000
   cooldownTime: 4
 --- !u!23 &8545707662551699729

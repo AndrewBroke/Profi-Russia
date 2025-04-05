@@ -210,6 +210,7 @@ GameObject:
   - component: {fileID: 50207323}
   - component: {fileID: 50207322}
   - component: {fileID: 50207325}
+  - component: {fileID: 50207326}
   m_Layer: 5
   m_Name: LevelEditorButton
   m_TagString: Untagged
@@ -364,6 +365,19 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+--- !u!114 &50207326
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 50207320}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3a68d5800099904daac241aadb28632, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clickSound: {fileID: 0}
 --- !u!1 &64501669
 GameObject:
   m_ObjectHideFlags: 0
@@ -1888,6 +1902,7 @@ GameObject:
   - component: {fileID: 330083514}
   - component: {fileID: 330083513}
   - component: {fileID: 330083516}
+  - component: {fileID: 330083517}
   m_Layer: 5
   m_Name: PlayButton
   m_TagString: Untagged
@@ -2042,6 +2057,19 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+--- !u!114 &330083517
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 330083511}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 071f05eb416287d49bbb473a3b0adcf5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clickSound: {fileID: 0}
 --- !u!1 &343773378
 GameObject:
   m_ObjectHideFlags: 0
@@ -9640,19 +9668,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1507313372}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1507313375}
-        m_TargetAssemblyTypeName: ExitGame, Assembly-CSharp
-        m_MethodName: Exit
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &1507313372
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9745,9 +9761,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1507313369}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 15b00d0312101644daee5f67b38d4101, type: 3}
+  m_Script: {fileID: 11500000, guid: c955e495c9fc318479a3251c30e4a648, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  clickSound: {fileID: 0}
 --- !u!1 &1530416262
 GameObject:
   m_ObjectHideFlags: 0
